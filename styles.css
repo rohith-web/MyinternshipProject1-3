@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -86,8 +86,8 @@
   .popup {
     display: none;
     position: fixed;
-    top: 20px; /* Adjust top position */
-    right: 20px; /* Adjust right position */
+    top: 20px;
+    right: 20px; 
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
