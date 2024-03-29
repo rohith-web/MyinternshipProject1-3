@@ -1,0 +1,104 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  header {
+    color: #fffbfb;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    height: 3cm;
+    /* background-image: url(https://th.bing.com/th/id/R.3c652414f71c65e5bf1b8232875f4523?rik=J4y7xkGaOxZhTA&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f242%2f145%2f84%2fpatrick-star-nickelodeon-spongebob-squarepants-caricature-cartoons-colorful-720P-wallpaper.jpg&ehk=0clCv%2fqnOKo%2fjCPS2kWyx7GE%2b2Fw3es0q2KVdf2IqXw%3d&risl=&pid=ImgRaw&r=0); */
+    /* background-size:cover; */
+ 
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+   
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li:hover{
+    background: transparent;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  
+  }
+  
+  .product {
+
+   text-align:center;
+  }
+  
+  .product img {
+   
+    height: auto;
+    margin-bottom: 10px;
+    image-resolution: 500 600;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-left: 2rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 20px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 9999;
+    border-radius: 2rem 2rem;
+  }
+  #new{
+    margin-left: 1rem;
+  }
+  .hi{
+    text-align: center;
+    text-align-last:left ;
+      }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Emporium</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href=
+  "https://w7.pngwing.com/pngs/382/740/png-transparent-round-black-and-white-hi-doodle-art-doodle-art-drawing-doodles-text-photography-monochrome.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 class="rey-come">Liberty</h1>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/ecommerce.html#">Home</a></li>
+        <li><a href="#">Men's Shoes</a></li>
+        <li><a href="#">Women's Shoes</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Cart</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product">
+      <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg" alt="Shoe" width="400" height="300" id="new"    >
+      <h2 class="hello">Men's Running Shoes</h2>
+      <p class="hi"><b>Detailed Description:</b>
+<br>
+       <b> Features:</b> Breathable mesh upper, Zoom Air cushioning in the forefoot and heel, responsive foam midsole, durable rubber outsole.<br>
+       <b> Benefits:</b> Provides breathability, keeps your feet cool, absorbs impact for a smoother ride, propels you forward with each stride, offers good traction on various surfaces.
+       <br><b>Materials:</b> Mesh upper, foam midsole, rubber outsole.
+        Additional Information:
+        <br>
+        Customer Reviews: Consistently rated highly for comfort, cushioning, and responsiveness.
+        This is a great all-around running shoe, suitable for both beginner and experienced runners.
+        Available in a variety of colors.</p>
+      <p class="price">Rs.599</p>
+      <p>Size: <select>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+      </select></p>
+      <button id="addToBuy">Buy Now</button>
+      <button id="addToCartBtn">Add to Cart</button>
+
+      <div id="popup" class="popup">
+        <p>Item added to cart!</p>
+      </div>
+      
+      <script>
+        // Function to show the popup
+        function showPopup() {
+          var popup = document.getElementById("popup");
+          popup.style.display = "block";
+      
+      
+          setTimeout(function(){
+            popup.style.display = "none";
+          }, 3000);
+        }
+      
+        // Add event listener to the Add to Cart button
+        var addToCartBtn = document.getElementById("addToCartBtn");
+        addToCartBtn.addEventListener("click", function() {
+          showPopup();
+        });
+      </script>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Liberty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
